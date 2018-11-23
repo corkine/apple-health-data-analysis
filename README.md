@@ -24,7 +24,7 @@ Apple Health 健康应用程序记录了一些数据，包括心率、活动、�
 
 但是在线转换有隐私的问题，虽然作者已经保证不收集信息。对我而言，最大的问题，是慢，JavaScript 的速度，对于 365 天的 Apple Watch 数据而言，需要 10 - 20 分钟处理，CPU 占用极高。
 
-## 使用 Python 处理
+### 使用 Python 处理
 
 Github 上有人提供 Python 处理脚本：
 
@@ -46,6 +46,6 @@ https://github.com/tdda/applehealthdata/blob/master/applehealthdata.py
 
 ## 服务（预计版本 3.0）
 
-本库提供了很多 Entity 类，这些类是为将 XML 数据映射为 POJO，进一步通过 JPA 将数据映射到 MYSQL 数据库而准备的。
+本库提供了很多 Entity 类，这些类是为将 XML 数据映射为 POJO，进一步通过 JPA 将数据映射到 MySQL 数据库而准备的。
 
 通过 Python 探索一些合适的指标，然后通过 Hibernate、Spring 和 Spring MVC 提供基于 Web 的服务，前端使用 JavaScript 和 echat.js 进行展示。
